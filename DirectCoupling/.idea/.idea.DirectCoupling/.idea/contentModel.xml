@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Jasson\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Jasson\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_DirectCoupling.783873485.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Jasson\OneDrive\AVIB\avibanalysis\AST-C Sharp\DirectCoupling" t="IncludeFlat">
+      <e p="DirectCoupling" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DirectCoupling.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="DirectCoupling.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

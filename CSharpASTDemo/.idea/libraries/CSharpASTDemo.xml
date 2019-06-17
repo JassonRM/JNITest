@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="CSharpASTDemo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DirectCoupling.j4n.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jni4net.j-0.8.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
