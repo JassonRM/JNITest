@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DirectCoupling.j4n">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DirectCoupling.j4n.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81ef2fa6-0c9f-4c76-8e2a-ea18da1efba9" name="Default Changelist" comment="" />
+    <list default="true" id="093664da-45b6-4d01-aa2a-0f015b2d1c2b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1POAYHHlhdHnCE3R9Bq0pHYsLnM" />
+  <component name="ProjectId" id="1POB1yVkqJ17wsJwa8fwwjhWNwr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -37,12 +44,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="81ef2fa6-0c9f-4c76-8e2a-ea18da1efba9" name="Default Changelist" comment="" />
-      <created>1565734814873</created>
+      <changelist id="093664da-45b6-4d01-aa2a-0f015b2d1c2b" name="Default Changelist" comment="" />
+      <created>1565735050622</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565734814873</updated>
-      <workItem from="1565734818998" duration="230000" />
+      <updated>1565735050622</updated>
+      <workItem from="1565735052520" duration="526000" />
     </task>
     <servers />
   </component>
