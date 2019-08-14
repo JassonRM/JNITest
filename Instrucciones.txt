@@ -5,20 +5,19 @@ https://github.com/jni4net/jni4net/wiki/ProxyGen
 usage:
 proxygen.exe path\to\<library>.dll -wd work\directory -dp .NET\dependencies;comma\separated;assemblies
 
-TutorialJNI ya esta terminado
-
 
 Instrucciones
-Se va a trabajar con el proyecto de C# DirectCoupling y el de Java TutorialJNI - Original (TutorialJNI ya esta terminado) usando JDK 1.8
+Se va a trabajar con el proyecto de C# DirectCoupling (compilado como librería) y el de Java TutorialJNI - Original (TutorialJNI ya esta terminado) usando JDK 1.8
+
 Para utilizar jni4net se debe:
 1. Descargar la ultima version https://sourceforge.net/projects/jni4net/files/
 2. Copiar el contenido de la carpeta lib en el proyecto TutorialJNI.
-3. Importar jni4net.j-0.8.8.0.jar como librer�a en java
+3. Importar jni4net.j-0.8.8.0.jar como librería en java
 4. Abrir Developer Command Prompt for VS 2019 (aunque creo que el CMD normal funciona)
 5. Navegar hasta la carpeta donde se encuentra jni4net, entrar en la carpeta bin. En mi caso:
 	cd C:\Users\Jasson\OneDrive\AVIB\jni4net-0.8.8.0-bin\bin
 6. Para poder utilizar llamar todas los .dll tuve que copiar los archivos producidos por DirectCoupling
-(\ASTDemo\DirectCoupling\DirectCoupling\bin\Debug) a la carpeta C:\ASTCSharp para tener paths m�s cortos.
+(\ASTDemo\DirectCoupling\DirectCoupling\bin\Debug) a la carpeta C:\ASTCSharp para tener paths más cortos.
 7. Ejecutar el siguiente script cambiando el path de salida (work\directory) por el adecuado para el proyecto de Java.
 
 
@@ -27,5 +26,9 @@ Para utilizar jni4net se debe:
 
 8. Navegar mediante la linea de comandos a la carpeta TutorialJNI y ejecutar el build.cmd generado en la carpeta del proyecto de Java. Se debe generar un j4n.jar y un j4n.dll
 9. Copiar todos los .dll producidos por DirectCoupling a la carpeta del proyecto de Java.
-10. Importar DirectCoupling.j4n.jar como librer�a en Java.
+10. Importar DirectCoupling.j4n.jar como librería en Java.
 11. Ejecutar App.java
+
+
+Nota: El problema de los Generics ocurre cuando se intenta crear el proxy de los archivos Microsoft.CodeAnalysis como .dll principal.
+Es decir, .\proxygen.exe "C:\ASTCSharp\Microsoft.CodeAnalysis.dll" -wd "" - dp
